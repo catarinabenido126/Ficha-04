@@ -1,9 +1,9 @@
 /* Seletor Universal - Remove margens e preenchimentos padrão */
 * {
-margin: 0; /* Remove margens padrão */
-padding: 0; /* Remove preenchimento padrão */
-box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo do tamanho */
-font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 }
 /* Estilo da barra de navegação principal */
 .bng-navbar {
@@ -94,4 +94,94 @@ display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 100
 /* Espaçamento interno (superior/inferior e laterais) */
 /* Centraliza o texto dentro dos artigos */
 /* Garante altura mínima de uma janela (ecrã) */
+}
+/* Seção "Quem Somos" */
+#quem-somos {
+text-align: center; padding: 100px 0; }
+.quem-somos-content {
+max-width: 800px; margin: 0 auto; }
+.quem-somos-content h1 {
+font-size: 3em; margin-bottom: 20px; }
+.quem-somos-content p {
+font-size: 1.2em; margin-bottom: 30px; }
+/* Centra todo o conteúdo horizontalmente */
+/* Espaçamento superior e inferior de 100px */
+/* Largura máxima de 800px para limitar o conteúdo */
+/* Centra horizontalmente o conteúdo */
+/* Tamanho grande para o título principal */
+/* Espaçamento abaixo do título */
+/* Aumenta o tamanho da letra do parágrafo */
+/* Espaço abaixo do parágrafo */
+.quem-somos-content img {
+width: 700px; height: 165px; display: block; margin: 20px auto; object-fit: cover; }
+.button {
+display: inline-block; background-color: #aaaaaa; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; /* Define uma largura fixa da imagem */
+/* Define uma altura fixa da imagem */
+/* Faz com que a imagem se comporte como bloco (para usar margin auto) */
+/* Centraliza a imagem com margens acima e abaixo */
+/* Corta a imagem de forma proporcional sem distorcer */
+/* Permite definir largura/altura e manter como botão em linha */
+/* Cor de fundo cinza-claro */
+/* Cor do texto branca */
+/* Espaçamento interno (vertical x horizontal) */
+/* Remove o sublinhado do link */
+/* Bordas arredondadas no botão */
+}
+/* Seção Equipa */
+/* Define o estilo dos títulos h2 da secção "nossa-equipa" e "servicos" */
+#nossa-equipa h2, #servicos h2 {
+font-size: 3em; margin-bottom: 20px; /* Aumenta o tamanho da fonte para maior destaque */
+/* Adiciona espaço abaixo do título */
+}
+/* Estilo para o container que agrupa todos os membros da equipa */
+.equipa-container {
+display: flex; /* Organiza os elementos em linha (flexível) */
+flex-wrap: wrap; /* Permite que os elementos passem para a linha abaixo em ecrãs pequenos */
+justify-content: center; /* Centraliza os elementos horizontalmente */
+}
+/* Estilo individual de cada membro da equipa */
+.pessoa {
+width: 300px; margin: 20px; padding: 20px; background-color: #eee; border-radius: 5px; text-align: center; /* Define uma largura fixa para cada bloco */
+/* Espaçamento entre os blocos */
+/* Espaço interno dentro do bloco */
+/* Cor de fundo cinzenta clara */
+/* Bordas ligeiramente arredondadas */
+/* Centraliza o conteúdo (imagem, nome, cargo) */
+}
+/* Estilo para a imagem de cada pessoa */
+.pessoa img {
+width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px; /* Largura fixa da imagem */
+/* Altura fixa da imagem */
+/* Transforma a imagem num círculo */
+/* Espaço entre a imagem e o nome */
+}
+section {
+padding: 100px 40px; text-align: center; min-height: 100vh; /* Espaçamento interno nas secções (superior/inferior e laterais) */
+/* Centraliza todo o conteúdo textual por padrão */
+/* Garante que cada secção tenha pelo menos a altura de uma janela inteira */
+}
+#servicos {
+max-width: 1200px;
+margin: 50px auto;
+padding: 50px;
+scroll-margin-top: 100px;
+}
+.servicos-container {
+display: flex; /* Organiza os elementos internos em linha (flexível) */
+flex-wrap: wrap; /* Permite que os elementos passem para a linha seguinte em ecrãs menores */
+justify-content: center; /* Centraliza os elementos horizontalmente */
+}
+.servico {
+width: 300px; margin: 20px; padding: 20px; background-color: #eee; border-radius: 5px; text-align: center; /* Define a largura de cada “cartão” de serviço */
+/* Espaçamento entre os cartões */
+/* Espaçamento interno dentro de cada cartão */
+/* Cor de fundo cinzenta clara para destacar cada serviço */
+/* Bordas arredondadas para um visual mais suave */
+/* Centraliza o conteúdo dentro de cada serviço */
+}
+.servico img {
+width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px; /* Largura da imagem */
+/* Altura da imagem */
+/* Torna a imagem circular */
+/* Espaço entre a imagem e o texto seguinte */
 }
